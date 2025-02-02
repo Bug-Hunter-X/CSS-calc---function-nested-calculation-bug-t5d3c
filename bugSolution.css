@@ -1,0 +1,11 @@
+The solution is to simplify the nested `calc()` expression into a single `calc()` expression.  The browser can then correctly evaluate the entire expression in one step. 
+
+The corrected CSS code is:
+
+```css
+.element {
+  width: calc(50% - 30px);
+}
+```
+
+This will correctly calculate the width of the element.
